@@ -1,0 +1,18 @@
+[
+  { "id": 1, "name": "Wireless Earbuds Pro", "category": "Electronics", "price": 79.99, "discountedPrice": 62.99, "discountPct": 21, "rating": 3.4, "ratingCount": 812 },
+  { "id": 2, "name": "4K Streaming Stick", "category": "Electronics", "price": 49.99, "discountedPrice": 39.99, "discountPct": 20, "rating": 4.2, "ratingCount": 2310 },
+  { "id": 3, "name": "Bluetooth Speaker Mini", "category": "Electronics", "price": 34.99, "discountedPrice": 24.99, "discountPct": 29, "rating": 2.9, "ratingCount": 540 },
+  { "id": 4, "name": "USB-C Fast Charger", "category": "Electronics", "price": 19.99, "discountedPrice": 17.99, "discountPct": 10, "rating": 4.5, "ratingCount": 1120 },
+  { "id": 5, "name": "Ceramic Nonstick Pan Set", "category": "Home Goods", "price": 89.99, "discountedPrice": 53.99, "discountPct": 40, "rating": 3.8, "ratingCount": 670 },
+  { "id": 6, "name": "Memory Foam Pillow", "category": "Home Goods", "price": 39.99, "discountedPrice": 19.99, "discountPct": 50, "rating": 3.5, "ratingCount": 1890 },
+  { "id": 7, "name": "Stainless Steel Water Bottle", "category": "Home Goods", "price": 24.99, "discountedPrice": 17.99, "discountPct": 28, "rating": 4.4, "ratingCount": 990 },
+  { "id": 8, "name": "Weighted Blanket", "category": "Home Goods", "price": 64.99, "discountedPrice": 32.99, "discountPct": 49, "rating": 3.6, "ratingCount": 450 },
+  { "id": 9, "name": "Men's Slim Fit Jeans", "category": "Apparel", "price": 44.99, "discountedPrice": 35.99, "discountPct": 20, "rating": 4.1, "ratingCount": 3200 },
+  { "id": 10, "name": "Women's Wrap Dress", "category": "Apparel", "price": 54.99, "discountedPrice": 46.99, "discountPct": 15, "rating": 4.3, "ratingCount": 2760 },
+  { "id": 11, "name": "Merino Wool Sweater", "category": "Apparel", "price": 69.99, "discountedPrice": 55.99, "discountPct": 20, "rating": 4.0, "ratingCount": 810 },
+  { "id": 12, "name": "Running Shorts", "category": "Apparel", "price": 29.99, "discountedPrice": 26.99, "discountPct": 10, "rating": 3.9, "ratingCount": 1440 },
+  { "id": 13, "name": "Vitamin C Serum", "category": "Beauty", "price": 22.99, "discountedPrice": 18.99, "discountPct": 17, "rating": 4.6, "ratingCount": 5200 },
+  { "id": 14, "name": "Matte Lipstick Set", "category": "Beauty", "price": 18.99, "discountedPrice": 13.99, "discountPct": 26, "rating": 3.7, "ratingCount": 980 },
+  { "id": 15, "name": "Clay Face Mask", "category": "Beauty", "price": 15.99, "discountedPrice": 9.99, "discountPct": 38, "rating": 3.3, "ratingCount": 610 },
+  { "id": 16, "name": "Hair Growth Oil", "category": "Beauty", "price": 27.99, "discountedPrice": 16.99, "discountPct": 39, "rating": 2.8, "ratingCount": 1330 }
+]
