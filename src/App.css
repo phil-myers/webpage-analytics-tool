@@ -22,6 +22,15 @@ th {
   color: var(--color-text);
 }
 
+.product-reviews {
+  background: var(--color-surface);
+  font-style: italic;
+}
+
+.product-reviews div + div {
+  margin-top: 6px;
+}
+
 .theme-toggle {
   position: fixed;
   top: 16px;

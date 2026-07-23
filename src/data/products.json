@@ -1,18 +1,234 @@
 [
-  { "id": 1, "name": "Wireless Earbuds Pro", "category": "Electronics", "price": 79.99, "discountedPrice": 62.99, "discountPct": 21, "rating": 3.4, "ratingCount": 812 },
-  { "id": 2, "name": "4K Streaming Stick", "category": "Electronics", "price": 49.99, "discountedPrice": 39.99, "discountPct": 20, "rating": 4.2, "ratingCount": 2310 },
-  { "id": 3, "name": "Bluetooth Speaker Mini", "category": "Electronics", "price": 34.99, "discountedPrice": 24.99, "discountPct": 29, "rating": 2.9, "ratingCount": 540 },
-  { "id": 4, "name": "USB-C Fast Charger", "category": "Electronics", "price": 19.99, "discountedPrice": 17.99, "discountPct": 10, "rating": 4.5, "ratingCount": 1120 },
-  { "id": 5, "name": "Ceramic Nonstick Pan Set", "category": "Home Goods", "price": 89.99, "discountedPrice": 53.99, "discountPct": 40, "rating": 3.8, "ratingCount": 670 },
-  { "id": 6, "name": "Memory Foam Pillow", "category": "Home Goods", "price": 39.99, "discountedPrice": 19.99, "discountPct": 50, "rating": 3.5, "ratingCount": 1890 },
-  { "id": 7, "name": "Stainless Steel Water Bottle", "category": "Home Goods", "price": 24.99, "discountedPrice": 17.99, "discountPct": 28, "rating": 4.4, "ratingCount": 990 },
-  { "id": 8, "name": "Weighted Blanket", "category": "Home Goods", "price": 64.99, "discountedPrice": 32.99, "discountPct": 49, "rating": 3.6, "ratingCount": 450 },
-  { "id": 9, "name": "Men's Slim Fit Jeans", "category": "Apparel", "price": 44.99, "discountedPrice": 35.99, "discountPct": 20, "rating": 4.1, "ratingCount": 3200 },
-  { "id": 10, "name": "Women's Wrap Dress", "category": "Apparel", "price": 54.99, "discountedPrice": 46.99, "discountPct": 15, "rating": 4.3, "ratingCount": 2760 },
-  { "id": 11, "name": "Merino Wool Sweater", "category": "Apparel", "price": 69.99, "discountedPrice": 55.99, "discountPct": 20, "rating": 4.0, "ratingCount": 810 },
-  { "id": 12, "name": "Running Shorts", "category": "Apparel", "price": 29.99, "discountedPrice": 26.99, "discountPct": 10, "rating": 3.9, "ratingCount": 1440 },
-  { "id": 13, "name": "Vitamin C Serum", "category": "Beauty", "price": 22.99, "discountedPrice": 18.99, "discountPct": 17, "rating": 4.6, "ratingCount": 5200 },
-  { "id": 14, "name": "Matte Lipstick Set", "category": "Beauty", "price": 18.99, "discountedPrice": 13.99, "discountPct": 26, "rating": 3.7, "ratingCount": 980 },
-  { "id": 15, "name": "Clay Face Mask", "category": "Beauty", "price": 15.99, "discountedPrice": 9.99, "discountPct": 38, "rating": 3.3, "ratingCount": 610 },
-  { "id": 16, "name": "Hair Growth Oil", "category": "Beauty", "price": 27.99, "discountedPrice": 16.99, "discountPct": 39, "rating": 2.8, "ratingCount": 1330 }
+  {
+    "id": 1,
+    "name": "Wireless Earbuds Pro",
+    "category": "Electronics",
+    "price": 79.99,
+    "discountedPrice": 62.99,
+    "discountPct": 21,
+    "rating": 3.4,
+    "ratingCount": 812,
+    "reviews": [
+      "Sound quality is great but the battery drains faster than advertised.",
+      "Kept disconnecting from my phone during calls.",
+      "Comfortable fit, wish the case charged faster."
+    ],
+    "aiSummary": "Customers like the sound quality but frequently complain about battery life and connectivity drops."
+  },
+  {
+    "id": 2,
+    "name": "4K Streaming Stick",
+    "category": "Electronics",
+    "price": 49.99,
+    "discountedPrice": 39.99,
+    "discountPct": 20,
+    "rating": 4.2,
+    "ratingCount": 2310,
+    "reviews": [
+      "Setup was quick and streaming is smooth even on WiFi.",
+      "Remote is a bit laggy but picture quality is excellent."
+    ],
+    "aiSummary": "Overall positive feedback on picture quality and ease of setup, with minor complaints about remote responsiveness."
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker Mini",
+    "category": "Electronics",
+    "price": 34.99,
+    "discountedPrice": 24.99,
+    "discountPct": 29,
+    "rating": 2.9,
+    "ratingCount": 540,
+    "reviews": [
+      "Volume isn't loud enough for outdoor use.",
+      "Stopped pairing reliably after two weeks.",
+      "Sound is tinny at higher volumes."
+    ],
+    "aiSummary": "Reviewers are frustrated with pairing reliability and underwhelming sound quality, especially at higher volumes."
+  },
+  {
+    "id": 4,
+    "name": "USB-C Fast Charger",
+    "category": "Electronics",
+    "price": 19.99,
+    "discountedPrice": 17.99,
+    "discountPct": 10,
+    "rating": 4.5,
+    "ratingCount": 1120,
+    "reviews": [],
+    "aiSummary": null
+  },
+  {
+    "id": 5,
+    "name": "Ceramic Nonstick Pan Set",
+    "category": "Home Goods",
+    "price": 89.99,
+    "discountedPrice": 53.99,
+    "discountPct": 40,
+    "rating": 3.8,
+    "ratingCount": 670,
+    "reviews": [
+      "Cooks evenly and cleans up easily.",
+      "Coating started to scratch after a few months of use."
+    ],
+    "aiSummary": "Customers appreciate the even cooking and easy cleanup but note the coating wears down over time."
+  },
+  {
+    "id": 6,
+    "name": "Memory Foam Pillow",
+    "category": "Home Goods",
+    "price": 39.99,
+    "discountedPrice": 19.99,
+    "discountPct": 50,
+    "rating": 3.5,
+    "ratingCount": 1890,
+    "reviews": [
+      "Very supportive for side sleepers.",
+      "Has a strong chemical smell out of the box.",
+      "Took a while to fluff up to full size."
+    ],
+    "aiSummary": "Praised for neck support, though several reviewers mention an initial odor and slow expansion."
+  },
+  {
+    "id": 7,
+    "name": "Stainless Steel Water Bottle",
+    "category": "Home Goods",
+    "price": 24.99,
+    "discountedPrice": 17.99,
+    "discountPct": 28,
+    "rating": 4.4,
+    "ratingCount": 990,
+    "reviews": [
+      "Keeps water cold all day, even in summer heat.",
+      "Durable and doesn't dent easily."
+    ],
+    "aiSummary": "Consistently praised for temperature retention and durability with very few complaints."
+  },
+  {
+    "id": 8,
+    "name": "Weighted Blanket",
+    "category": "Home Goods",
+    "price": 64.99,
+    "discountedPrice": 32.99,
+    "discountPct": 49,
+    "rating": 3.6,
+    "ratingCount": 450,
+    "reviews": [],
+    "aiSummary": null
+  },
+  {
+    "id": 9,
+    "name": "Men's Slim Fit Jeans",
+    "category": "Apparel",
+    "price": 44.99,
+    "discountedPrice": 35.99,
+    "discountPct": 20,
+    "rating": 4.1,
+    "ratingCount": 3200,
+    "reviews": [
+      "Fit true to size and held up well after washing.",
+      "Great value for the price."
+    ],
+    "aiSummary": "Customers are satisfied with fit and durability, calling them good value for the price."
+  },
+  {
+    "id": 10,
+    "name": "Women's Wrap Dress",
+    "category": "Apparel",
+    "price": 54.99,
+    "discountedPrice": 46.99,
+    "discountPct": 15,
+    "rating": 4.3,
+    "ratingCount": 2760,
+    "reviews": [
+      "Flattering fit and true to size.",
+      "Fabric feels a bit thin for the price."
+    ],
+    "aiSummary": "Mostly positive on fit and style, with occasional notes about fabric thickness."
+  },
+  {
+    "id": 11,
+    "name": "Merino Wool Sweater",
+    "category": "Apparel",
+    "price": 69.99,
+    "discountedPrice": 55.99,
+    "discountPct": 20,
+    "rating": 4.0,
+    "ratingCount": 810,
+    "reviews": [
+      "Soft and warm without being itchy.",
+      "Runs slightly large, consider sizing down."
+    ],
+    "aiSummary": "Customers like the warmth and softness, but recommend sizing down for a better fit."
+  },
+  {
+    "id": 12,
+    "name": "Running Shorts",
+    "category": "Apparel",
+    "price": 29.99,
+    "discountedPrice": 26.99,
+    "discountPct": 10,
+    "rating": 3.9,
+    "ratingCount": 1440,
+    "reviews": [],
+    "aiSummary": null
+  },
+  {
+    "id": 13,
+    "name": "Vitamin C Serum",
+    "category": "Beauty",
+    "price": 22.99,
+    "discountedPrice": 18.99,
+    "discountPct": 17,
+    "rating": 4.6,
+    "ratingCount": 5200,
+    "reviews": [
+      "Noticed brighter skin within two weeks.",
+      "Absorbs quickly and doesn't feel greasy."
+    ],
+    "aiSummary": "Strong praise for visible brightening results and lightweight, fast-absorbing texture."
+  },
+  {
+    "id": 14,
+    "name": "Matte Lipstick Set",
+    "category": "Beauty",
+    "price": 18.99,
+    "discountedPrice": 13.99,
+    "discountPct": 26,
+    "rating": 3.7,
+    "ratingCount": 980,
+    "reviews": [
+      "Great color payoff but dries out lips over time.",
+      "Long-lasting through meals."
+    ],
+    "aiSummary": "Reviewers like the color payoff and staying power but note it can be drying with extended wear."
+  },
+  {
+    "id": 15,
+    "name": "Clay Face Mask",
+    "category": "Beauty",
+    "price": 15.99,
+    "discountedPrice": 9.99,
+    "discountPct": 38,
+    "rating": 3.3,
+    "ratingCount": 610,
+    "reviews": [
+      "Left my skin feeling tight and slightly irritated.",
+      "Works well for oily skin but too harsh for sensitive skin.",
+      "A little goes a long way."
+    ],
+    "aiSummary": "Mixed feedback: effective for oily skin but several reviewers found it too harsh or drying."
+  },
+  {
+    "id": 16,
+    "name": "Hair Growth Oil",
+    "category": "Beauty",
+    "price": 27.99,
+    "discountedPrice": 16.99,
+    "discountPct": 39,
+    "rating": 2.8,
+    "ratingCount": 1330,
+    "reviews": [],
+    "aiSummary": null
+  }
 ]
