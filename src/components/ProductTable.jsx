@@ -78,7 +78,7 @@ function ProductTable({ products }) {
                   <td>{product.discountPct}%</td>
                   <td>{product.rating}</td>
                   <td>{product.ratingCount.toLocaleString()}</td>
-                  <td>{product.aiSummary ?? 'No reviews yet'}</td>
+                  <td>{product.aiSummary ?? 'No summary available'}</td>
                 </tr>
                 {isExpanded && (
                   <tr>

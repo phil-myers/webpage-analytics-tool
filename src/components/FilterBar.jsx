@@ -1,8 +1,6 @@
-import products from '../data/products.json';
+function FilterBar({ products, selectedCategory, onCategoryChange }) {
+  const categories = [...new Set(products.map((product) => product.category))];
 
-const categories = [...new Set(products.map((product) => product.category))];
-
-function FilterBar({ selectedCategory, onCategoryChange }) {
   return (
     <div className="filter-bar">
       <label htmlFor="category-filter">Category: </label>

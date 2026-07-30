@@ -1,7 +1,6 @@
-import products from '../data/products.json';
 import { aggregateByCategory } from '../utils/aggregateByCategory';
 
-function CategorySummary() {
+function CategorySummary({ products }) {
   const summary = aggregateByCategory(products);
 
   return (
